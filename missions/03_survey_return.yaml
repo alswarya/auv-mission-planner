@@ -1,0 +1,9 @@
+name: survey_return
+description: Run a 3-leg lawn-mower survey over a 20x10 m patch at 4 m depth, then return home. Abort and return if battery falls below 30%.
+start: [0.0, 0.0, -4.0, 0.0]
+goal: [0.0, 0.0, -4.0]
+survey_area: {origin: [10.0, -5.0], width_m: 20.0, height_m: 10.0, legs: 3}
+obstacles: []
+current: {speed_mps: 0.3, direction_deg: 180.0}
+battery_budget_pct: 100
+battery_abort_threshold_pct: 30

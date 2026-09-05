@@ -1,0 +1,9 @@
+# BlueROV2 Heavy parameters (Fossen notation) - defaults from arXiv:2608.19661 Table I
+dof: 6
+mass_kg: 13.5
+actuation: 8x T200 thrusters, full allocation matrix B
+actuator_lag: first-order
+state_dim: 12  # [x y z roll pitch yaw u v w p q r]
+max_thrust_n_per_thruster: 40  # placeholder - replace with measured T200 curve
+battery:
+  capacity_wh: 360  # placeholder

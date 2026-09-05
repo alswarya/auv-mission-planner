@@ -1,0 +1,10 @@
+name: slalom
+description: Slalom between three vertical pier legs spaced 8 m apart, then return to start.
+start: [0.0, 0.0, -3.0, 0.0]
+goal: [0.0, 0.0, -3.0]
+obstacles:
+  - {type: cylinder, center: [8.0, 2.0, -3.0], radius_m: 0.5}
+  - {type: cylinder, center: [16.0, -2.0, -3.0], radius_m: 0.5}
+  - {type: cylinder, center: [24.0, 2.0, -3.0], radius_m: 0.5}
+current: {speed_mps: 0.2, direction_deg: 90.0}
+battery_budget_pct: 100

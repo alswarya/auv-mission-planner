@@ -1,0 +1,5 @@
+numpy
+pyyaml
+torch
+holoocean
+openai  # or swap for your LLM client of choice

@@ -1,0 +1,7 @@
+name: transit_basic
+description: Travel from the start pier to the survey buoy and hold position for 10 s.
+start: [0.0, 0.0, -2.0, 0.0]
+goal: [40.0, 0.0, -2.0]
+obstacles: []
+current: {speed_mps: 0.0, direction_deg: 0.0}
+battery_budget_pct: 100

@@ -1,0 +1,11 @@
+llm:
+  model: gpt-4o-mini  # any API or open-weights model; swap freely
+  temperature: 0.2
+  max_plan_steps: 12
+world_model:
+  residual_hidden: [256, 256]
+  rollout_horizon_s: 60
+  dt_s: 0.1
+trust_region:
+  enabled: true
+  max_step_scale: 1.5
